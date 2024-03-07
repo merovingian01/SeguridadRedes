@@ -11,7 +11,7 @@
 
 <div>
    <h2 align="center">Herramientas Utilizadas</h2>
-   <img src="IndumentariaReadme/Herramientas_Utilizadas.png" alt="No se encontró la imagen de herramientas">
+   <img src="assets/herramientas.png" alt="No se encontró la imagen de herramientas">
    <h4 align="center">C en el código:</h4>
    <p align="center">
      Es un lenguaje de programación de bajo nivel muy versátil. Se utiliza ampliamente debido a su eficiencia y capacidad para interactuar 
