@@ -35,10 +35,10 @@
 </div>
 
 <div align="center">
-  <h2 align="center">Extensiones de PostgreSQL necesarias de instalar</h2>
+  <h2 align="center">⚠️Extensiones de PostgreSQL necesarias de instalar⚠️</h2>
    <p align="center">
      Npgsql es un proveedor de datos .NET para PostgreSQL, que permite a las aplicaciones .NET comunicarse con bases de datos PostgreSQL. Actúa como un puente 
      entre la aplicación escrita en C# (u otro lenguaje .NET) y el sistema de gestión de bases de datos PostgreSQL. 
    </p>
-     <img src="assets/Extensiones_Postgresql.gif" alt="No se encontró la imagen de herramientas">
+     <img width="200%" src="assets/Extensiones_Postgresql.gif" alt="No se encontró la imagen de herramientas">
    
