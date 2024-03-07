@@ -10,81 +10,35 @@
 </div>
 
 <div>
-   <h2 align="center">Herramientas Utilizadas</h2>
+   <h2 align="center">Herramientas Principales Utilizadas</h2>
    <p align="center">
   <img src="assets/herramientas.png" alt="No se encontró la imagen de herramientas">
    </p>
-   <h4 align="center">C en el código:</h4>
+  <h4 align="center">VisualStudio:</h4>
    <p align="center">
-     Es un lenguaje de programación de bajo nivel muy versátil. Se utiliza ampliamente debido a su eficiencia y capacidad para interactuar 
-     directamente con el hardware de la computadora. Es especialmente útil en situaciones donde se necesita un control preciso sobre los recursos del sistema.
+    Visual Studio se utiliza en este proyecto como entorno de desarrollo integrado (IDE) para C#. Ofrece herramientas avanzadas, depuración, 
+     integración con Git y un conjunto de características que agilizan el desarrollo de aplicaciones web con ASP.NET Core. La interfaz intuitiva 
+     y las funcionalidades de productividad hacen de Visual Studio una opción poderosa para construir y mantener aplicaciones en el ecosistema .NET.
    </p>
-   <h4 align="center">SDL (Simple DirectMedia Layer):</h4>
+   <h4 align="center">C# en el código:</h4>
    <p align="center">
-     Es una librería multimedia multiplataforma ampliamente utilizada en el desarrollo de juegos, proporcionando una interfaz para manejar 
-     gráficos, audio, entrada de usuario y más. SDL simplifica tareas como la creación de ventanas, la manipulación de eventos del sistema, la reproducción de audio y la carga 
-     de imágenes, lo que permite a los desarrolladores enfocarse en la lógica del juego sin preocuparse tanto por las complejidades de la plataforma subyacente.
+     C# se seleccionó para este proyecto web MVC debido a su integración óptima con ASP.NET y su capacidad para desarrollar aplicaciones robustas. 
+     Con una sintaxis clara y orientada a objetos, C# facilita la creación de software estructurado. Su estrecha relación con Visual Studio y la 
+     compatibilidad con PostgreSQL contribuyen a una solución completa y eficiente.
    </p>
-   <h4 align="center">GLEW (OpenGL Extension Wrangler Library):</h4>
+   <h4 align="center">PostgreSQL:</h4>
    <p align="center">
-     Es una librería que se utiliza con OpenGL, una API gráfica poderosa y versátil para renderización 2D y 3D. GLEW se encarga de 
-     manejar las extensiones de OpenGL, proporcionando un entorno para utilizar las funcionalidades avanzadas de OpenGL de manera más sencilla. Permite a los desarrolladores 
-     acceder a las últimas capacidades gráficas que ofrece la tarjeta gráfica del sistema.
-   </p>
-  <h4 align="center">Photoshop:</h4>
-   <p align="center">
-     Photoshop es una aplicación de software desarrollada por Adobe que se utiliza principalmente para la edición y manipulación de imágenes. Es una herramienta muy poderosa y 
-     versátil que permite realizar una amplia gama de tareas relacionadas con el diseño gráfico, la fotografía y la creación de contenido visual.
+     PostgreSQL se eligió como base de datos para este proyecto por su robustez, capacidad para manejar grandes conjuntos de datos y su compatibilidad 
+     con el modelo de datos relacional. Además, su licencia de código abierto y la sólida comunidad de usuarios ofrecen una solución confiable y escalable 
+     para almacenar y gestionar la información del sistema.
    </p>
 </div>
 
 <div align="center">
-  <h2 align="center">Descripción De Uso De Las Herramientas</h2>
-   <h4 align="center">C en el código:</h4>
+  <h2 align="center">Extensiones de PostgreSQL necesarias de instalar</h2>
    <p align="center">
-     Se emplea el lenguaje C para desarrollar la lógica del juego, manejar eventos del teclado y administrar la interacción entre los elementos del juego.
+     Npgsql es un proveedor de datos .NET para PostgreSQL, que permite a las aplicaciones .NET comunicarse con bases de datos PostgreSQL. Actúa como un puente 
+     entre la aplicación escrita en C# (u otro lenguaje .NET) y el sistema de gestión de bases de datos PostgreSQL. 
    </p>
-   <h4 align="center">SDL en el código:</h4>
-   <p align="center">
-     SDL (Simple DirectMedia Layer) se utiliza para gestionar la ventana del juego, cargar imágenes, manejar eventos del teclado y renderizar elementos gráficos como raquetas, 
-     pelota y fondos.
-   </p>
-   <h4 align="center">GLEW en el código:</h4>
-   <p align="center">
-     GLEW (OpenGL Extension Wrangler Library) se emplea para gestionar extensiones de OpenGL y así habilitar el renderizado gráfico en 2D y 3D, permitiendo el manejo de 
-     texturas y shaders para la representación visual del juego.
-   </p>
-  <h4 align="center">Photoshop en el juego:</h4>
-   <p align="center">
-     Para el diseño del juego, se empleó Photoshop, una herramienta poderosa de edición de imágenes, para crear y diseñar los elementos gráficos necesarios. Esto añadió un 
-     valor visual significativo y contribuyó a la estética del juego.
-   </p>
-</div>
-
-<div>
-  <h2 align="center">Pantallas Del Juego</h2>
-  <img src="IndumentariaReadme/Pantallas_Botones1.png" alt="No se encontró las pantallas del juego">
-</div>
-
-<div>
-  <h2 align="center">Requisitos Mínimos</h2>
-  <h3 align="center">Hardware:</h4>
-   <p align="center">
-     - Procesador: 1 GHz
-   </p>
-   <p align="center">
-     - Memoria RAM: 2 GB
-   </p>
-    <h3 align="center">Software:</h4>
-   <p align="center">
-     - Sistema operativo: Windows o Linux.
-   </p>
-    <h3 align="center"> Compatibilidad de bibliotecas y versiones:</h4>
-   <p align="center">
-     - Asegurarse de tener las versiones correctas y compatibles de las bibliotecas SDL2 y Glew.h requeridas para evitar problemas de compatibilidad y funcionamiento.
-   </p>
-   <h3 align="center"> Compilador Usado:</h4>
-   <p align="center">
-     - Compilador de skeeto: https://github.com/skeeto/w64devkit.git
-   </p>
-</div>
+     <img src="assets/Extensiones_Postgresql.gif" alt="No se encontró la imagen de herramientas">
+   
